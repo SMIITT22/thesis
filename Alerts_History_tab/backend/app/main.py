@@ -7,15 +7,11 @@ from uuid import UUID
 from datetime import datetime
 
 
-# Database connection
 DATABASE_URL = "postgresql://postgres:2002@localhost:5432/alerts_db"
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(bind=engine)
 
-# FastAPI app
 app = FastAPI()
-
-# Pydantic models
 
 class Alert(BaseModel):
     alertId: UUID = Field(..., alias="alertid")
@@ -51,9 +47,7 @@ async def get_alerts(
     with engine.connect() as conn:
         result = conn.execute(text(query), {"limit": limit, "offset": offset}).fetchall()
         
-        # Convert database results to dictionaries
         alerts = [dict(row._mapping) for row in result]
         
-        # Return response with alias mapping
         new_token = str(offset + limit) if len(alerts) == limit else None
         return PaginatedResponse(items=alerts, nextPaginationToken=new_token).dict(by_alias=True)

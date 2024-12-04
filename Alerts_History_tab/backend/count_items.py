@@ -15,17 +15,14 @@ def count_items(file_path):
         print(f"Error: {e}")
 
 def main():
-    # Define the path to the mock data file
     current_dir = os.path.dirname(os.path.abspath(__file__))
     file_path = os.path.join(current_dir, "mock_data.json")
     
-    # Check if the file exists
     if not os.path.exists(file_path):
         print(f"File not found: {file_path}")
         return
     
-    # Count items in the JSON file
-    count_items(file_path)
+        count_items(file_path)
 
 if __name__ == "__main__":
     main()
