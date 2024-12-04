@@ -1,0 +1,3546 @@
+{
+  "items": [
+      {
+          "alertId": "4f5ed397-bf09-4678-9e96-d207b3ffa911",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "type": "NetworkAdapterTraffic",
+              "state": "Alert"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":5385,\"MaximumTraffic\":11175,\"MinimumTraffic\":1171}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T23:45:17.02Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "state": "Open",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "ba89d81a-f693-491e-ba13-3fb4685c6234",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "type": "CpuUsage",
+              "state": "Alert"
+          },
+          "details": "{\"AverageUsage\":31.654995995314284,\"MaxUsage\":44.90573410178763}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-12-02T08:50:38.811Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "state": "Open",
+          "teamviewerId": 1003546696
+      },
+      {
+          "acknowledgedAccount": {
+              "accountId": 153447,
+              "name": "Gohar Ali Test Master "
+          },
+          "acknowledgedAt": "2024-11-12T12:23:47.984Z",
+          "alertId": "fb59f081-ba25-4309-b80c-c57a6cd5f5c0",
+          "check": {
+              "checkId": "86a0c491-e862-133a-2453-358febabdd67",
+              "configuration": "{\"Drive\":\"C\",\"Unit\":\"%\",\"Space\":100}",
+              "type": "DiskSpace",
+              "state": "Alert"
+          },
+          "details": "{\"DataSubType\":1,\"Capacity\":486219,\"FreeDiskSpace\":364316}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-09-13T15:00:32.95Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "state": "Acknowledged",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "dc497311-abf5-4561-9707-3c7e48061552",
+          "check": {
+              "checkId": "d27a06ef-bb5c-87ce-05a4-8b815a157aa2",
+              "configuration": "{\"Process\":\"obs64.exe\",\"AlertOnRunning\":false}",
+              "type": "Process",
+              "state": "Alert"
+          },
+          "details": "null",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-10-29T13:24:09.304Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "state": "Open",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "caa5251a-2819-4672-8f57-3ae5c0c10d5f",
+          "check": {
+              "checkId": "ec25eca8-671e-b0dd-0115-dcbd8ad82f00",
+              "configuration": "{\"MinimumAvailable\":64000}",
+              "type": "MemoryUsage",
+              "state": "Alert"
+          },
+          "details": "{\"TotalMemory\":31452,\"AvailableMemory\":16390}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-09-13T15:00:32.95Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "state": "Open",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "c6e8763c-6c8d-4a53-8bed-fdf17df9b2e5",
+          "check": {
+              "checkId": "f4408252-4b37-abb3-bcd3-0066450d058a",
+              "configuration": "{\"GracePeriodSeconds\":0}",
+              "type": "OnlineState",
+              "state": "Alert"
+          },
+          "details": "null",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-12-02T09:14:18.862Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "state": "Open",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "f2c34494-6e61-40b5-8645-fbd812e8098a",
+          "check": {
+              "checkId": "f4408252-4b37-abb3-bcd3-0066450d058a",
+              "configuration": "{\"GracePeriodSeconds\":0}",
+              "duration": 15,
+              "type": "OnlineState",
+              "state": "Passed"
+          },
+          "details": "null",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-12-02T08:56:19.691Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-12-02T09:11:45.513Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "c2a6f1fc-2a72-4338-a44e-635b02b46d38",
+          "check": {
+              "checkId": "f4408252-4b37-abb3-bcd3-0066450d058a",
+              "configuration": "{\"GracePeriodSeconds\":0}",
+              "duration": 3421,
+              "type": "OnlineState",
+              "state": "Passed"
+          },
+          "details": "null",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T23:45:42.459Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-12-02T08:47:03.231Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "e0c1480b-4e4d-45f9-abd7-5eb2871737e0",
+          "check": {
+              "checkId": "468db4a0-b5d0-471b-1bdc-9fda96894b5d",
+              "configuration": "{\"AlertSetting\":2}",
+              "duration": 3441,
+              "type": "SystemUpdate",
+              "state": "Passed"
+          },
+          "details": "{\"UpdateSetting\":4,\"UpdateAvailability\":2}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T23:25:37.864Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-12-02T08:46:53.424Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "c231a1c4-8433-4d9a-bcfb-fe9722d64f87",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 2,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":118868,\"MaximumTraffic\":293206,\"MinimumTraffic\":4802}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T23:40:17.035Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T23:43:17.004Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "cbc56dc9-b5c6-4fa4-a4e6-59a01de1b064",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 6,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":5.2899530063609879,\"MaxUsage\":10.212849052919349}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T23:35:16.832Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T23:41:16.879Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "2a6b3d5c-bfec-4a09-b978-9741cd6d40c2",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 3,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":240116,\"MaximumTraffic\":611815,\"MinimumTraffic\":48}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T23:36:16.989Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T23:39:17.004Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "f097b87b-1193-4a8a-8218-4fa5e26caf03",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 3,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1561,\"MaximumTraffic\":2983,\"MinimumTraffic\":139}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T23:31:16.926Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T23:34:16.957Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "0bc9ba55-cd60-4962-a242-5483c6cc6385",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 0,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":571,\"MaximumTraffic\":1741,\"MinimumTraffic\":30}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T23:28:16.895Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T23:29:16.864Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "594a434f-0387-46fb-8346-a9dd66c4ed71",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 0,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":8113,\"MaximumTraffic\":18590,\"MinimumTraffic\":923}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T23:26:16.895Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T23:27:16.879Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "4bf2a492-5a51-4f66-8f34-16cce3541db4",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 1,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":6.2104583886072646,\"MaxUsage\":15.975811957475861}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T23:25:16.739Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T23:26:16.739Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "87b8e319-da29-4c09-9a9a-ce8aee8574b3",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 16,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":9034,\"MaximumTraffic\":27776,\"MinimumTraffic\":309}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T23:08:16.723Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T23:24:16.832Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "a51b7537-37cc-4c06-922e-12a5eca6628c",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 3,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":41.300449669110193,\"MaxUsage\":44.6051602814699}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T23:20:16.692Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T23:23:16.723Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "53ae4c1f-5160-4af4-aac5-0035f665ccd1",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 403,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":5.3117238091465158,\"MaxUsage\":12.263414634146342}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T16:26:10.522Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T23:09:16.614Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "99b02b85-cd3b-4013-9181-5f82c9c41149",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 656,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":21310,\"MaximumTraffic\":94497,\"MinimumTraffic\":110}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T12:11:04.964Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T23:07:16.723Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "fe6e6e9b-7ba2-4095-a5e1-aa5bde1cda1b",
+          "check": {
+              "checkId": "f4408252-4b37-abb3-bcd3-0066450d058a",
+              "configuration": "{\"GracePeriodSeconds\":0}",
+              "duration": 397,
+              "type": "OnlineState",
+              "state": "Passed"
+          },
+          "details": "null",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T16:27:27.78Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T23:04:36.224Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "1c900f4f-4a45-4351-a192-2a2fa49f56d6",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 1,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":5.586329684783772,\"MaxUsage\":12.736862668489934}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T15:58:10.272Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T15:59:10.303Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "9a566096-24e2-4039-bbcf-7ec590a79c5c",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 0,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":5.65004379650666,\"MaxUsage\":8.6523437500000018}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T15:29:10.022Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T15:30:10.006Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "abaa5437-c89e-4941-a999-d283c1980939",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 2,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":7.8703614041054619,\"MaxUsage\":15.719161384690395}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T15:26:09.99Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T15:28:10.006Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "46c65529-1ded-4787-9cad-5e42c0d01d87",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 2,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":6.3871251602254286,\"MaxUsage\":7.6171875}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T14:55:09.756Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T14:57:09.772Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "c14ac039-125e-4db5-8b9a-4685a61746fb",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 5,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":6.4520550830430938,\"MaxUsage\":9.19461778471139}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T14:48:09.694Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T14:53:09.74Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "047fc8b6-0e18-4e86-b46b-5b451c5f7d33",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 2,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":6.6280189431487342,\"MaxUsage\":9.5544506190894047}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T14:45:09.678Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T14:47:09.709Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "3bb90059-218d-4963-83bc-0b407b4eb225",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 2,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":6.54944636574078,\"MaxUsage\":15.395135293543028}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T14:42:09.647Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T14:44:09.678Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "2401b7cf-f6e2-4526-8270-920c571c90a6",
+          "check": {
+              "checkId": "468db4a0-b5d0-471b-1bdc-9fda96894b5d",
+              "configuration": "{\"AlertSetting\":2}",
+              "duration": 40,
+              "type": "SystemUpdate",
+              "state": "Passed"
+          },
+          "details": "{\"UpdateSetting\":4,\"UpdateAvailability\":2}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T13:57:27.256Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T14:37:27.334Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "980ed098-3695-4c87-b04e-df13a368ba42",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 0,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":8.23066231094324,\"MaxUsage\":10.311493018259931}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T14:36:09.631Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T14:37:09.615Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "9e171a75-0d6b-4392-a6d5-a18285d010ed",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 3,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":6.8198975432328739,\"MaxUsage\":11.869204489995122}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T14:32:09.584Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T14:35:09.615Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "3710913f-02e1-400a-b557-0cbe05ace77e",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 2,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":6.590040687922702,\"MaxUsage\":7.4150058616647136}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T14:21:09.475Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T14:23:09.49Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "aa843611-663b-421d-aadd-c06884687c6d",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 1,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":7.1190146783806822,\"MaxUsage\":14.564242542405925}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T14:18:09.444Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T14:19:09.444Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "6dd280e6-bb78-4615-8131-8db93a719575",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 1,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":5.577075517233383,\"MaxUsage\":7.9886851346078869}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T13:39:09.131Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T13:40:09.131Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "7fed88cc-66ac-4077-a26f-2916db6d2152",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 3,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":8.2335718545859873,\"MaxUsage\":13.015501608657498}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T13:35:09.115Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T13:38:09.131Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "2b92a7a6-0a3f-4b37-8f48-012389f2a346",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 3,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":6.1371166987899528,\"MaxUsage\":10.316918576304246}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T13:00:08.756Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T13:03:08.772Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "55ba0472-7eb7-4b3c-b62a-bec971699d0a",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 4,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":8.4471549625031823,\"MaxUsage\":11.472368677992584}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T12:55:08.709Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T12:59:08.741Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "e8927c0b-1d0c-4e34-bd74-6b5da683108b",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 1,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":5.8451561152382743,\"MaxUsage\":9.672691744015637}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T12:50:08.678Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T12:51:08.709Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "40f4b391-4876-419f-ba5f-681397c33237",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 0,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":7.2681442319555147,\"MaxUsage\":10.213846304071872}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T12:45:08.678Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T12:46:08.662Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "35afa92c-f669-4832-ba3d-d3fd250c798d",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 3,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":35.287501242460465,\"MaxUsage\":59.51171875}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T12:31:08.553Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T12:34:08.569Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "7c25b11a-30af-4430-bcb2-c988dae91b06",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 1,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":6.0781790762755579,\"MaxUsage\":15.805885792243224}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T12:27:08.491Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T12:28:08.491Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "778677e1-d7c0-4c98-a699-4459cff67505",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 1,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":10.103777786264102,\"MaxUsage\":15.088457076566131}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T12:25:08.475Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T12:26:08.491Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "f8b36c22-7a34-4efd-86bd-d5203ff64638",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 2,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":10.128144192959772,\"MaxUsage\":38.400857031554345}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T12:11:04.839Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T12:13:04.944Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "314ad112-1283-482b-bd9b-ce73ffe751e3",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 4,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1321,\"MaximumTraffic\":3138,\"MinimumTraffic\":44}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T12:04:04.902Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T12:08:04.933Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "fa0fa81f-34de-4a4d-bacd-8026756c8aac",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 2,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":18420,\"MaximumTraffic\":53958,\"MinimumTraffic\":225}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T12:01:04.87Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T12:03:04.886Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "cf605c46-3b6b-4d86-961d-010fe186405b",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 5,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1947,\"MaximumTraffic\":7884,\"MinimumTraffic\":39}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T11:55:04.839Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T12:00:04.886Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "eb591801-a5cb-4607-8631-3ead698ff93d",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 8,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1953,\"MaximumTraffic\":5915,\"MinimumTraffic\":315}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T11:46:04.745Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T11:54:04.823Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "940a7790-0242-4b02-bc58-0ac1b068678e",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 4,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":896,\"MaximumTraffic\":1702,\"MinimumTraffic\":291}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T11:41:04.73Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T11:45:04.745Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "352812e5-8aeb-4e10-8b90-6ebb5e5b03ad",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 8,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1773,\"MaximumTraffic\":6267,\"MinimumTraffic\":85}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T11:31:04.683Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T11:39:04.745Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "bff87401-199b-4f02-96da-0ea2cebb0a3a",
+          "check": {
+              "checkId": "468db4a0-b5d0-471b-1bdc-9fda96894b5d",
+              "configuration": "{\"AlertSetting\":2}",
+              "duration": 20,
+              "type": "SystemUpdate",
+              "state": "Passed"
+          },
+          "details": "{\"UpdateSetting\":4,\"UpdateAvailability\":2}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T11:17:26.433Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T11:37:26.464Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "bf414baf-b664-4039-a291-9f1ee317b77f",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 4,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":577,\"MaximumTraffic\":1049,\"MinimumTraffic\":53}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T11:26:04.652Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T11:30:04.667Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "0198ab00-2092-4c30-9bf7-05613b0e50bd",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 0,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":5.63524625660625,\"MaxUsage\":11.311731407378488}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T11:27:04.527Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T11:28:04.511Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "ea38eaf5-b14a-4ee2-9b38-363588999ebd",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 6,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":6190,\"MaximumTraffic\":14978,\"MinimumTraffic\":104}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T11:18:04.589Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T11:24:04.605Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "977c37da-693e-4df3-8170-54378e9897fa",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 1,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":6.8012765423316592,\"MaxUsage\":16.222807530972581}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T11:17:04.448Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T11:18:04.448Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "6341dd34-48f5-4a31-8b37-5b06b3a08c86",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 1,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1051,\"MaximumTraffic\":1817,\"MinimumTraffic\":220}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T11:16:04.558Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T11:17:09.995Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "ce501caa-711a-49ff-b44a-e16ea06cd78a",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 3,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1260,\"MaximumTraffic\":3298,\"MinimumTraffic\":147}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T11:11:04.495Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T11:14:04.511Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "37098e85-a114-4f3d-a9cf-cc8087121616",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 1,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":8005,\"MaximumTraffic\":23293,\"MinimumTraffic\":373}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T11:09:04.495Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T11:10:04.495Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "f798dc49-6d21-482f-88a9-df8a57e9337c",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 1,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":7.6588943519770378,\"MaxUsage\":16.461628588166377}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T11:09:04.355Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T11:10:04.37Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "af1081a2-799e-4166-9213-bab8a7e7634a",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 5,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":825,\"MaximumTraffic\":2067,\"MinimumTraffic\":62}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T11:03:04.417Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T11:08:04.48Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "fc1c15fa-0902-44d2-8e61-f7a5426516a7",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 0,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":621,\"MaximumTraffic\":1743,\"MinimumTraffic\":167}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T11:01:10.042Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T11:02:04.433Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "a0bb18ed-d601-4be2-ba8f-a6198e3b9be4",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 4,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":697,\"MaximumTraffic\":1157,\"MinimumTraffic\":198}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T10:56:04.384Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T11:00:04.402Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "1427ec5d-0e61-486a-8629-5cd5d7bd402b",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 1,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":7.5546749014783074,\"MaxUsage\":13.816689466484267}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T10:57:04.245Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T10:58:04.277Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "88555a3c-cca6-43c4-b6e3-b2de6f440799",
+          "check": {
+              "checkId": "f4408252-4b37-abb3-bcd3-0066450d058a",
+              "configuration": "{\"GracePeriodSeconds\":0}",
+              "duration": 0,
+              "type": "OnlineState",
+              "state": "Passed"
+          },
+          "details": "null",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T10:55:53.585Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T10:56:31.949Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "47b4018a-154f-4333-8014-1a6057c2a5c2",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 6,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":816,\"MaximumTraffic\":1745,\"MinimumTraffic\":58}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T10:48:04.185Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T10:54:04.216Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "b688f3c9-6208-4278-a24a-8c852ee4d9e9",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 0,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":5.0190512879175548,\"MaxUsage\":10.200293111871028}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T10:47:04.06Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T10:48:04.029Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "0033140f-1e03-4845-bbc2-54944265e94e",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 1,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1519,\"MaximumTraffic\":4368,\"MinimumTraffic\":130}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T10:46:04.169Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T10:47:04.185Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "d296ce5a-b0e5-4c8b-951a-f8554dd4d603",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 7,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":31580,\"MaximumTraffic\":133932,\"MinimumTraffic\":1610}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T10:38:04.122Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T10:45:09.529Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "836425db-9cf6-4faa-b2a0-776f91b9de3f",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 6,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":788,\"MaximumTraffic\":2035,\"MinimumTraffic\":202}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T10:31:04.044Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T10:37:04.091Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "c7154092-94e1-409a-8f2e-78972238548d",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 1,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":7.2451374160499116,\"MaxUsage\":16.291313249488159}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T10:36:03.982Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T10:37:03.982Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "e67f611a-6081-43a5-b9bf-c03fa33355fd",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 2,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1631,\"MaximumTraffic\":2468,\"MinimumTraffic\":164}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T10:28:04.013Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T10:30:04.044Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "19ba8454-ac67-400c-9b57-9dd0e171d110",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 1,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":5435,\"MaximumTraffic\":12176,\"MinimumTraffic\":242}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T10:25:03.982Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T10:26:03.997Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "15bb57c0-ea15-4f17-ab49-abbe97cd55ed",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 2,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":7.8266458342428269,\"MaxUsage\":12.53419304415787}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T10:24:03.857Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T10:26:03.857Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "6fe23df6-cfd6-41b4-b96a-d407c2dbb058",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 0,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":31571,\"MaximumTraffic\":155901,\"MinimumTraffic\":127}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T10:23:03.997Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T10:24:03.982Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "8756fab2-1bd9-4bd8-9dce-3bdbbbfcdf17",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 5,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":915,\"MaximumTraffic\":2747,\"MinimumTraffic\":33}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T10:16:03.95Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T10:21:03.982Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "b4aeafc7-7ff0-47f5-bc84-8aa6a4875c32",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 1,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1883,\"MaximumTraffic\":4427,\"MinimumTraffic\":462}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T10:14:03.904Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T10:15:03.919Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "f21594f1-e160-43fc-9ea8-8d6d2821225b",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 1,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":340,\"MaximumTraffic\":1068,\"MinimumTraffic\":63}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T10:11:03.888Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T10:12:09.169Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "df36d35b-8536-4f45-8d8d-66f1e7e72e26",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 8,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":676,\"MaximumTraffic\":1386,\"MinimumTraffic\":83}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T10:01:03.794Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T10:09:03.872Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "75b9cc2a-e09f-451a-9381-9fc46d58356e",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 1,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1264,\"MaximumTraffic\":4780,\"MinimumTraffic\":98}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T09:56:08.966Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T09:58:03.779Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "67557daf-62dc-4b9c-9a30-a12233b1fb68",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 5,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":795,\"MaximumTraffic\":1558,\"MinimumTraffic\":122}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T09:49:03.732Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T09:54:03.732Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "2ab88a8b-1daf-46c0-89e5-a4e6c9c6a403",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 2,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":693,\"MaximumTraffic\":1213,\"MinimumTraffic\":52}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T09:46:03.669Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T09:48:03.7Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "97e3a8eb-2620-4b2f-a1af-bdde611fea6f",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 1,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":5.2836337295385034,\"MaxUsage\":8.895825204838081}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T09:47:03.56Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T09:48:03.56Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "6d64951d-e2c9-4947-ab93-d1bd7f466af9",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 4,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":619,\"MaximumTraffic\":1789,\"MinimumTraffic\":71}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T09:40:09.013Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T09:45:03.654Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "a9f6a8bd-7c9a-4cfe-be9c-84968fe8aa7e",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 0,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":8597,\"MaximumTraffic\":22873,\"MinimumTraffic\":936}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T09:38:03.607Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T09:39:03.591Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "8957e95b-bfec-4106-b6f1-dae2cbc72cf6",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 2,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":892,\"MaximumTraffic\":2117,\"MinimumTraffic\":70}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T09:35:03.56Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T09:37:03.591Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "63d4300a-1eb1-4655-9c25-0d5b14a5608a",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 2,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":791,\"MaximumTraffic\":1975,\"MinimumTraffic\":87}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T09:31:07.25Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T09:33:07.261Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "dbb5f9aa-da91-4f7e-90f8-c112abc7a99b",
+          "check": {
+              "checkId": "f4408252-4b37-abb3-bcd3-0066450d058a",
+              "configuration": "{\"GracePeriodSeconds\":0}",
+              "duration": 1113,
+              "type": "OnlineState",
+              "state": "Passed"
+          },
+          "details": "null",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T14:59:51.505Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T09:32:54.928Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "11209fa7-b0b4-4311-b6cc-01254bd00791",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 0,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":244,\"MaximumTraffic\":511,\"MinimumTraffic\":88}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T09:28:07.228Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T09:29:07.221Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "499461cc-9730-4456-954a-9d2b94d71747",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 2,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1462,\"MaximumTraffic\":3734,\"MinimumTraffic\":170}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T09:25:07.195Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T09:27:07.212Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "c8b63311-fb8a-488e-87c5-a15a08d9e17b",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 2,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1607,\"MaximumTraffic\":4861,\"MinimumTraffic\":239}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T09:22:07.204Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T09:24:12.607Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "8aa6611e-f3d7-4050-8cc0-a34bd7cb4e63",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 4,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":814,\"MaximumTraffic\":1094,\"MinimumTraffic\":445}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T09:16:07.19Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T09:20:07.2Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "e85a73ed-fd6e-4442-9205-a58bce9a7a39",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 0,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":7.3534003490528885,\"MaxUsage\":11.299435028248583}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T09:19:07.093Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T09:20:07.081Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "51f24d7b-5360-431a-bcae-71b08a6e31f6",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 1,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":5.3742638834760514,\"MaxUsage\":9.8865636612556216}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T09:17:07.053Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T09:18:07.092Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "7e709b38-aafd-49fb-b742-a00fde5ebe6c",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 5,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":583,\"MaximumTraffic\":2007,\"MinimumTraffic\":89}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T09:10:07.112Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T09:15:07.178Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "03baa930-dea6-4521-a1b2-d0c2b4009368",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 8,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":5651,\"MaximumTraffic\":24110,\"MinimumTraffic\":341}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T09:01:07.053Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T09:09:07.138Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "cc28ac78-5d1c-4808-904d-f0e2231bab20",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 5,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":865,\"MaximumTraffic\":1381,\"MinimumTraffic\":186}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T08:55:07.01Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T09:00:07.056Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "1adc1e82-bb49-4768-95b9-6df77aad6571",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 1,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1190,\"MaximumTraffic\":3883,\"MinimumTraffic\":69}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T08:53:07.007Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T08:54:07.043Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "fe3d6326-8d7d-4258-b200-f074a1461d98",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 1,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1322,\"MaximumTraffic\":3300,\"MinimumTraffic\":216}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T08:50:06.982Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T08:51:07.014Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "f4cbcea6-320a-4886-8786-cef14b8b3863",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 4,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":816,\"MaximumTraffic\":1364,\"MinimumTraffic\":97}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T08:45:06.915Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T08:49:07.01Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "6e88993e-33f0-4030-a46a-d345e6d5df4e",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 1,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":5.7491056014441337,\"MaxUsage\":9.0678379697413334}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T08:47:06.845Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T08:48:06.849Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "3cf3fab0-d7b0-43f7-b19f-3776dc0cb87e",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 14,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":854,\"MaximumTraffic\":1477,\"MinimumTraffic\":157}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T08:30:06.791Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T08:44:06.902Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "a7d93dde-29e2-4a88-a05e-e5a26060fe48",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 2,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":15.187986085242784,\"MaxUsage\":27.817417652233413}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T08:37:06.727Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T08:39:06.767Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "4d53d6f7-0848-46cc-9184-a5932b653241",
+          "check": {
+              "checkId": "468db4a0-b5d0-471b-1bdc-9fda96894b5d",
+              "configuration": "{\"AlertSetting\":2}",
+              "duration": 20,
+              "type": "SystemUpdate",
+              "state": "Passed"
+          },
+          "details": "{\"UpdateSetting\":4,\"UpdateAvailability\":2}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T08:16:37.16Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T08:37:26.992Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "455cad7a-892f-42e8-ab36-2d602034c9e3",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 3,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":581,\"MaximumTraffic\":1188,\"MinimumTraffic\":171}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T08:26:06.758Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T08:29:06.804Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "72911244-c5dc-48d2-a8e9-b17d124c284b",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 0,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":5.7417107728248427,\"MaxUsage\":9.4750195160031243}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T08:27:06.664Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T08:28:06.646Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "844c231b-2911-4044-afe2-6f3eeb8d7acd",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 5,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":8992,\"MaximumTraffic\":30619,\"MinimumTraffic\":934}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-29T08:20:06.731Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T08:25:06.786Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "f1db2f16-c4f4-48a0-9f8d-680587a4bb5f",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 1047,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":9.2049895531919539,\"MaxUsage\":16.855247756535306}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T14:57:51.392Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-29T08:25:06.606Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "afc70eea-dbe6-4901-bfd6-847b717925cd",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 4,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":5363,\"MaximumTraffic\":16740,\"MinimumTraffic\":50}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T14:53:51.471Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T14:57:51.517Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "1e574ebb-e368-4196-b8b0-0bc3f427847e",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 1,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1783,\"MaximumTraffic\":3300,\"MinimumTraffic\":64}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T14:49:57.096Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T14:51:51.439Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "b116ca6c-327c-4ef9-9819-ada185fc8276",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 1,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":5.6273775790681189,\"MaxUsage\":11.020009760858951}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T14:48:51.33Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T14:49:51.33Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "61c13d59-fa16-48c8-9e28-b702f188ae7d",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 1,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1672,\"MaximumTraffic\":2810,\"MinimumTraffic\":894}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T14:46:51.424Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T14:47:51.486Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "d2dd9995-2bfd-4c3f-8866-13225f2d6ddb",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 2,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1924,\"MaximumTraffic\":4173,\"MinimumTraffic\":1122}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T14:43:51.424Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T14:45:51.424Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "367481a0-a019-4a78-bd00-04bd1dab8dc3",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 1,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":5.9169528642804714,\"MaxUsage\":10.064365125804564}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T14:44:51.299Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T14:45:51.299Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "1851cb89-aaa3-42b2-93d9-d660b0dee9c0",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 5,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1092,\"MaximumTraffic\":3364,\"MinimumTraffic\":255}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T14:37:51.361Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T14:42:51.408Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "cd219015-0625-4e2b-82c2-e29adc6d0fe7",
+          "check": {
+              "checkId": "468db4a0-b5d0-471b-1bdc-9fda96894b5d",
+              "configuration": "{\"AlertSetting\":2}",
+              "duration": 20,
+              "type": "SystemUpdate",
+              "state": "Passed"
+          },
+          "details": "{\"UpdateSetting\":4,\"UpdateAvailability\":2}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T14:18:13.189Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T14:38:27.767Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "94526745-679b-49a5-b66a-31e3fa033153",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 5,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1350,\"MaximumTraffic\":3590,\"MinimumTraffic\":59}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T14:31:51.314Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T14:36:51.361Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "278a6a4b-06ca-4d80-9555-353313d6756f",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 5,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1815,\"MaximumTraffic\":4595,\"MinimumTraffic\":45}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T14:24:51.252Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T14:29:51.314Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "1f131ca7-2c95-4b7b-8568-e95a120a02d5",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 9,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":958,\"MaximumTraffic\":3067,\"MinimumTraffic\":104}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T14:14:51.174Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T14:23:51.236Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "ae45d85e-2909-47c4-b873-4c24fa68dd1b",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 0,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":5.64621709954539,\"MaxUsage\":12.002730109204373}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T14:21:51.127Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T14:22:51.096Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "1810761a-cf01-4390-a6f3-bd2f2f987b35",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 1,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":5.8511105146799229,\"MaxUsage\":17.784085347949496}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T14:18:51.08Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T14:19:51.08Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "368326e8-c356-47ec-b65c-6b9b6fef9a49",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 2,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1620,\"MaximumTraffic\":3706,\"MinimumTraffic\":195}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T14:11:51.142Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T14:13:51.174Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "732c9bb1-a2f2-4a12-b47e-ff0d5691d658",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 1,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1517,\"MaximumTraffic\":4276,\"MinimumTraffic\":217}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T14:09:51.127Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T14:10:51.142Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "8a293df9-70b8-42f5-b4e6-57a62a2c21d4",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 4,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1367,\"MaximumTraffic\":3472,\"MinimumTraffic\":137}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T14:04:51.096Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T14:08:51.142Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "005c952b-0aaa-4f50-a85f-8df5cda46ebc",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 1,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":29542,\"MaximumTraffic\":139887,\"MinimumTraffic\":1122}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T14:02:51.064Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T14:03:51.064Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "61c9bfb9-879d-4897-9437-b5dc7de055ee",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 2,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1446,\"MaximumTraffic\":3534,\"MinimumTraffic\":164}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T13:59:51.049Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T14:01:56.705Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "46ca1677-d1d6-4e58-a804-f0fba28c6dd6",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 3,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1673,\"MaximumTraffic\":3148,\"MinimumTraffic\":119}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T13:55:51.033Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T13:58:51.049Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "16d186e8-d45e-44b2-8363-9995e56fca4a",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 0,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":5.3241890131797387,\"MaxUsage\":13.996874389529202}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T13:54:50.908Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T13:55:50.892Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "396ab889-b646-4836-aa09-5eb4714820e9",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 1,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":5291,\"MaximumTraffic\":10216,\"MinimumTraffic\":394}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T13:53:51.002Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T13:54:51.017Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "0fc7d480-f182-4fea-b00a-449d26a9fc23",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 2,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":629,\"MaximumTraffic\":2006,\"MinimumTraffic\":38}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T13:49:50.971Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T13:51:51.002Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "cb3686de-88e0-40d3-a51c-6f19afad6735",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 4,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1505,\"MaximumTraffic\":3500,\"MinimumTraffic\":147}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T13:44:50.924Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T13:48:50.971Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "c5e5bdf3-ebf7-46f5-9555-0cad1b2a677d",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 4,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":847,\"MaximumTraffic\":2396,\"MinimumTraffic\":131}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T13:39:50.877Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T13:43:50.924Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "c5bca3f7-071a-4c61-80ba-47827bcd884a",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 4,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":938,\"MaximumTraffic\":1803,\"MinimumTraffic\":93}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T13:34:50.877Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T13:38:50.924Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "4e181d41-91b5-42ee-865c-2feaf14cd0a4",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 4,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":857,\"MaximumTraffic\":2289,\"MinimumTraffic\":175}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T13:29:50.846Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T13:33:50.861Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "a79f2e5b-2ec5-4eaa-ab5d-83a61226462e",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 1,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1152,\"MaximumTraffic\":2909,\"MinimumTraffic\":70}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T13:27:50.799Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T13:28:56.439Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "22438911-d143-4a05-9018-ec76178b55c3",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 1,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":6.7660547331193284,\"MaxUsage\":9.9473376243417242}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T13:26:50.674Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T13:27:50.705Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "afb0d879-3359-4452-b77c-a40ed7c80ccb",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 1,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1730,\"MaximumTraffic\":3732,\"MinimumTraffic\":51}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T13:25:50.814Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T13:26:50.986Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "19e0c7e6-bb47-481d-b0b3-1b7a0ba1acbe",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 10,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1650,\"MaximumTraffic\":3719,\"MinimumTraffic\":50}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T13:14:50.705Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T13:24:50.783Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "a7a37755-9c60-4759-b3b3-391af74e2dcd",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 0,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":6.24572618464897,\"MaxUsage\":16.533203124999996}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T13:18:50.627Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T13:19:50.611Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "a0e9ce6f-f3c2-4dfd-927c-1af3e683ca1a",
+          "check": {
+              "checkId": "468db4a0-b5d0-471b-1bdc-9fda96894b5d",
+              "configuration": "{\"AlertSetting\":2}",
+              "duration": 59,
+              "type": "SystemUpdate",
+              "state": "Passed"
+          },
+          "details": "{\"UpdateSetting\":4,\"UpdateAvailability\":2}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T12:18:17.08Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T13:18:09.455Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "71e5e2d1-c8e1-44e5-9a9a-2de8daa74070",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 1,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":11.847298907647623,\"MaxUsage\":32.815552950371242}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T13:15:50.58Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T13:16:50.627Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "26b6cbde-3eeb-40d0-a4ee-962a175b8469",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 3,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1935,\"MaximumTraffic\":4275,\"MinimumTraffic\":226}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T13:10:50.689Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T13:13:50.705Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "8638155a-a2c6-4740-a32e-b7bc83cf3052",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 8,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1287,\"MaximumTraffic\":3484,\"MinimumTraffic\":160}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T13:00:50.596Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T13:08:50.689Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "16717ca3-27b3-4a91-810a-93ea9f323566",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 1,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":5.8219546771699644,\"MaxUsage\":11.774477232753567}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T13:01:50.486Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T13:02:50.502Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "044f1709-3030-4034-a854-2d4aae7a70e6",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 1,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":5.3432546780176731,\"MaxUsage\":8.8077336197636917}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T12:59:50.486Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T13:00:50.502Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "3b99d842-a7f3-4880-b48e-b34276ecf01a",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 4,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1658,\"MaximumTraffic\":2719,\"MinimumTraffic\":845}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T12:55:50.58Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T12:59:50.611Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "df909305-7f3a-4c8f-9888-1634098114b8",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 0,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":9.8645386820855574,\"MaxUsage\":12.655884645362436}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T12:57:50.471Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T12:58:50.455Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "20fdfc4a-577e-47ea-a179-7cdfc1fcb5f6",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 1,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":5.0470283552913413,\"MaxUsage\":10.799999999999999}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T12:54:50.439Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T12:55:50.455Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "f3e4ca7e-1bbe-4f4a-ae0d-07a0bbc8d1f0",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 2,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":84680,\"MaximumTraffic\":299964,\"MinimumTraffic\":3909}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T12:52:50.549Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T12:54:50.596Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "09330d8c-29c6-4079-9a6c-1259488d9245",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 1,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":11.115120508287115,\"MaxUsage\":26.271600117153181}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T12:52:50.424Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T12:53:50.439Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "f85d27e2-3508-45b3-9270-5a5e56f4b8f8",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 1,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":5.8006595206765272,\"MaxUsage\":7.5622862725940436}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T12:50:50.424Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T12:51:50.424Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "95410e9e-291c-4e6c-a643-93911503670e",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 3,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":7568,\"MaximumTraffic\":30808,\"MinimumTraffic\":68}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T12:47:50.502Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T12:50:50.58Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "18e604a8-c63c-42b5-8041-1e444e729898",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 1,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":8.0976422334222775,\"MaxUsage\":16.948159718832379}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T12:48:50.392Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T12:49:50.408Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "5370824a-af0a-48bb-8120-cc7ae648f3d9",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 2,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":986,\"MaximumTraffic\":3108,\"MinimumTraffic\":51}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T12:44:50.486Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T12:46:50.517Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "1301d27f-c580-47ab-9423-a5597bf7a687",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 2,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1179,\"MaximumTraffic\":2802,\"MinimumTraffic\":98}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T12:41:50.502Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T12:43:50.564Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "8fd7ebeb-0414-4f06-8ddc-d1cc90ead755",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 1,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1056,\"MaximumTraffic\":3317,\"MinimumTraffic\":76}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T12:39:50.455Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T12:40:56.502Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "c0419bab-690a-4331-8b39-4a8f24033904",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 10,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":736188,\"MaximumTraffic\":3666279,\"MinimumTraffic\":423}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T12:28:50.346Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T12:38:50.455Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "f9c946fb-fd02-4333-87de-650a913eb3a3",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 0,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":8.87701998778868,\"MaxUsage\":11.101355965271676}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T12:30:50.283Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T12:31:50.252Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "80eb9211-ab3a-4f11-b69c-d8c843e6091d",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 1,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":10.949207396317835,\"MaxUsage\":34.640140433001754}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T12:28:50.236Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T12:29:50.236Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "22df1b54-3cd5-46ca-8f26-a154e316d0df",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 0,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":6.006330678477112,\"MaxUsage\":9.0366748166259114}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T12:26:50.236Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T12:27:50.221Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "38646b49-8545-4344-908f-93eaa7db5372",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 5,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":27060,\"MaximumTraffic\":131413,\"MinimumTraffic\":56}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T12:20:50.299Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T12:25:50.314Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "3e09ac1f-878b-4026-8acc-d0ae6ed01506",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 4,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":42.7956277865626,\"MaxUsage\":67.542488767337375}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T12:21:50.174Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T12:25:50.205Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "795e5609-71fd-4eda-8b42-13ffb7aca7b7",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 190,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1590,\"MaximumTraffic\":2201,\"MinimumTraffic\":1139}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T09:09:22.61Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T12:19:50.283Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "a091a199-69a3-4650-b154-02a4c6a14fee",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 1,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":22.731063847057023,\"MaxUsage\":89.990234375}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T12:18:10.08Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T12:19:50.127Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "40eb4c0c-ff43-41e8-a599-28e6f0e31288",
+          "check": {
+              "checkId": "f4408252-4b37-abb3-bcd3-0066450d058a",
+              "configuration": "{\"GracePeriodSeconds\":0}",
+              "duration": 186,
+              "type": "OnlineState",
+              "state": "Passed"
+          },
+          "details": "null",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T09:12:04.304Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T12:18:06.589Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "99be8c4c-2186-440f-83e4-9991b316789b",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 1,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":990,\"MaximumTraffic\":2509,\"MinimumTraffic\":177}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T09:07:22.61Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T09:08:22.625Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "d70e5f3a-b483-48ab-86c5-a736fe1f8fb5",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 1,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":964,\"MaximumTraffic\":1811,\"MinimumTraffic\":224}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T09:05:22.578Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T09:06:22.61Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "1444a066-6f70-4637-a094-3f9d5f59a97c",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 2657,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":5612,\"MaximumTraffic\":21442,\"MinimumTraffic\":577}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-26T12:46:09.924Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T09:03:22.594Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "e792aa5f-0aa0-4bca-913e-9f8eabb7915a",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 1,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":8.7171864116693,\"MaxUsage\":13.670539986329455}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-28T09:02:22.438Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T09:03:22.438Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "800735b7-3390-47af-84cd-f9b7a1d11d9a",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 2654,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":5.744832279520014,\"MaxUsage\":15.649711998437954}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-26T12:47:09.784Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T09:01:22.469Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "6b49ecc4-3dc0-4bac-aad6-b70dfea7c3e0",
+          "check": {
+              "checkId": "f4408252-4b37-abb3-bcd3-0066450d058a",
+              "configuration": "{\"GracePeriodSeconds\":0}",
+              "duration": 2634,
+              "type": "OnlineState",
+              "state": "Passed"
+          },
+          "details": "null",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-26T12:50:50.217Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T08:45:37.538Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "dc5d542a-5921-4dba-92d0-633df1fa0e44",
+          "check": {
+              "checkId": "468db4a0-b5d0-471b-1bdc-9fda96894b5d",
+              "configuration": "{\"AlertSetting\":2}",
+              "duration": 2684,
+              "type": "SystemUpdate",
+              "state": "Passed"
+          },
+          "details": "{\"UpdateSetting\":4,\"UpdateAvailability\":2}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-26T12:00:46.924Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-28T08:45:35.842Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "c8133028-e24d-459e-8a8f-a4c80cdf7e6f",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 3,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":5163,\"MaximumTraffic\":16731,\"MinimumTraffic\":55}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-26T12:42:09.893Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-26T12:45:09.909Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "5fcf3299-d59e-4da3-b71c-872048a9022e",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 5,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1229,\"MaximumTraffic\":3640,\"MinimumTraffic\":97}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-26T12:36:09.83Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-26T12:41:09.909Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "c9c22d73-2cc5-4d39-8e40-7594ced468f2",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 1,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":5.3109281228427827,\"MaxUsage\":9.088241048718448}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-26T12:40:09.737Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-26T12:41:09.752Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "ee6dbac9-09a8-460a-aa2a-eac44b1ea54d",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 0,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1732,\"MaximumTraffic\":3806,\"MinimumTraffic\":831}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-26T12:34:15.44Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-26T12:35:09.799Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "ada7f8ec-c964-45ec-95c9-550690c64c88",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 5,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1947,\"MaximumTraffic\":4894,\"MinimumTraffic\":215}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-26T12:27:09.752Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-26T12:32:09.799Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "20105550-6aa0-42a3-957d-8c6270057fd4",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 2,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1687,\"MaximumTraffic\":4408,\"MinimumTraffic\":258}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-26T12:23:09.721Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-26T12:25:09.737Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "62e07f57-1042-4714-bca5-19b743fcc587",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 3,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":642036,\"MaximumTraffic\":3201619,\"MinimumTraffic\":77}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-26T12:16:09.674Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-26T12:19:09.721Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "315d23db-30d0-4a78-ae96-029b3cf5fd00",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 0,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":6.5340352597262239,\"MaxUsage\":11.008280565026784}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-26T12:17:09.565Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-26T12:18:09.549Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "118b0eb7-138a-4e57-bcee-11b35ab3578c",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 2,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1740,\"MaximumTraffic\":5632,\"MinimumTraffic\":72}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-26T12:08:09.58Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-26T12:10:09.627Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "704b6e8e-08f6-440b-9a29-f0ffcb205bd9",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 2,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":11360,\"MaximumTraffic\":40506,\"MinimumTraffic\":79}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-26T11:57:09.534Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-26T11:59:09.549Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "c2235bbf-ffd4-4c33-a437-9ded28eab4fe",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 1,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1669,\"MaximumTraffic\":6434,\"MinimumTraffic\":63}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-26T11:54:09.502Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-26T11:55:09.534Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "c315c476-710a-488a-bb06-bd4e8c67896e",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 1,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1811,\"MaximumTraffic\":6179,\"MinimumTraffic\":92}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-26T11:51:09.487Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-26T11:52:09.487Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "ac0d5bb8-57c8-4feb-95ed-69f012886539",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 4,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1940,\"MaximumTraffic\":4531,\"MinimumTraffic\":511}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-26T11:46:09.44Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-26T11:50:09.487Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "fc73c20f-4957-4e8a-9569-3fd7c9a3ba2f",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 2,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":6922,\"MaximumTraffic\":9690,\"MinimumTraffic\":4734}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-26T11:40:09.409Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-26T11:42:09.409Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "daa6f98b-e033-4297-acfb-7a3fc97ac965",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 1,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":5.8609876992603622,\"MaxUsage\":10.239906377998832}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-26T11:40:09.284Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-26T11:41:09.299Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "30d2d73e-c956-4b85-b3be-3e51b1e1b9a1",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 1,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":83172,\"MaximumTraffic\":312084,\"MinimumTraffic\":90}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-26T11:33:09.346Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-26T11:34:09.377Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "9b33da9b-e925-49af-ae3e-dc1dbda97ff1",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 1,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":10.536293301524662,\"MaxUsage\":22.248289345063544}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-26T11:33:09.221Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-26T11:34:09.221Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "542b0559-2fc3-4fc2-be25-cdd5855fc35c",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 1,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1390,\"MaximumTraffic\":2536,\"MinimumTraffic\":162}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-26T11:31:09.346Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-26T11:32:09.362Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "641457e8-8e29-4dbf-9da1-82ad9e4013cd",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 2,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1529,\"MaximumTraffic\":4272,\"MinimumTraffic\":128}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-26T11:28:09.299Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-26T11:30:09.346Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "67182253-38ff-4cf5-a6da-2f7109d0b26e",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 1,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1818,\"MaximumTraffic\":3474,\"MinimumTraffic\":443}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-26T11:24:09.284Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-26T11:25:09.299Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "0601d536-8d49-4f06-ab66-256df2375b9b",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 3,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1945,\"MaximumTraffic\":3479,\"MinimumTraffic\":481}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-26T11:17:09.221Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-26T11:20:09.252Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "35f8e71f-eed3-40fd-9289-84a2907af222",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 10,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":6033,\"MaximumTraffic\":12994,\"MinimumTraffic\":89}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-26T11:06:09.143Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-26T11:16:09.237Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "ef537b83-e4c8-4ec9-8d81-9f0b3176879a",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 6,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":8.2757055472001646,\"MaxUsage\":10.9210011732499}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-26T11:10:09.065Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-26T11:16:09.096Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "a3831bea-4a51-42bf-a61c-3485a472d2bc",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 1,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1970,\"MaximumTraffic\":7707,\"MinimumTraffic\":185}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-26T11:03:09.112Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-26T11:04:09.143Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "3fcb701b-ff4a-4d1b-9acd-23affd437e41",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 1,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":5339,\"MaximumTraffic\":9764,\"MinimumTraffic\":1766}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-26T11:00:09.096Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-26T11:01:09.127Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "3d0e08fc-f6bb-4a06-8a15-ef45bd10bb2f",
+          "check": {
+              "checkId": "6fb3d172-4955-7f2a-84a5-f8fc426fbdb2",
+              "configuration": "{\"AverageLoad\":5}",
+              "duration": 1,
+              "type": "CpuUsage",
+              "state": "Passed"
+          },
+          "details": "{\"AverageUsage\":5.4863538934317786,\"MaxUsage\":7.4584555229716525}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-26T11:00:08.94Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-26T11:01:08.971Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      },
+      {
+          "alertId": "6cd9af84-b90e-48a3-a68a-032998473b5e",
+          "check": {
+              "checkId": "235f47c3-e189-a802-8aab-b64b44a52dfa",
+              "configuration": "{\"Direction\":1,\"MinimumUnit\":\"kbs\",\"MinimumValue\":2000,\"MaximumUnit\":\"kbs\",\"MaximumValue\":5000}",
+              "duration": 1,
+              "type": "NetworkAdapterTraffic",
+              "state": "Passed"
+          },
+          "details": "{\"AdapterEntries\":[{\"AdapterName\":\"Qualcomm FastConnect 6900 Wi-Fi 6E Dual Band Simultaneous [DBS] WDI Network Adapter\",\"AverageTraffic\":1933,\"MaximumTraffic\":4425,\"MinimumTraffic\":730}]}",
+          "deviceName": "TVDPF4PC7M2",
+          "foundAt": "2024-11-26T10:58:09.065Z",
+          "groups": [],
+          "policyVersionId": "529eae85-1deb-4699-80a9-94ff78dc84f7",
+          "resolvedAt": "2024-11-26T10:59:09.096Z",
+          "state": "Closed",
+          "teamviewerId": 1003546696
+      }
+  ],
+  "nextPaginationToken": "wggBFgAAADIwMjQxMTI2VDEwNTkwOS4wOTYwMDACEAAAAPlebuq2B0awiBrWF7xSpI0ECAAAAEjo0DsAAAAABfcAAAAPAAAAMjAyNDA5MDhUMDAwMDAwDwAAADIwMjQwOTE1VDAwMDAwMA8AAAAyMDI0MDkyMlQwMDAwMDAPAAAAMjAyNDA5MjlUMDAwMDAwDwAAADIwMjQxMDAxVDAwMDAwMA8AAAAyMDI0MTAwOFQwMDAwMDAPAAAAMjAyNDEwMTVUMDAwMDAwDwAAADIwMjQxMDIyVDAwMDAwMA8AAAAyMDI0MTAyOVQwMDAwMDAPAAAAMjAyNDExMDFUMDAwMDAwDwAAADIwMjQxMTA4VDAwMDAwMA8AAAAyMDI0MTExNVQwMDAwMDAPAAAAMjAyNDExMjJUMDAwMDAwBg8AAAAxOTAwMDEwMVQwMDAwMDAHDwAAADI5OTkxMjMxVDIzNTk1OQgEAAAAAgAAAP4BAAAAEg"
+}
+
+
