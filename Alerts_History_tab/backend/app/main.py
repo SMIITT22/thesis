@@ -1,4 +1,4 @@
-from fastapi import FastAPI, Query
+from fastapi import FastAPI, Query, HTTPException
 from pydantic import BaseModel, Field
 from typing import List, Optional
 from sqlalchemy import create_engine, text
@@ -35,6 +35,7 @@ class PaginatedResponse(BaseModel):
     items: List[Alert]
     nextPaginationToken: Optional[str]
 
+
 @app.get("/alerts", response_model=PaginatedResponse)
 async def get_alerts(
     totalLimit: int = Query(..., gt=0),
@@ -65,3 +66,55 @@ async def get_alerts(
             new_token = None
 
         return PaginatedResponse(items=alerts, nextPaginationToken=new_token).dict(by_alias=True)
+
+@app.get("/scrollable-alerts", response_model=PaginatedResponse)
+async def get_scrollable_alerts(
+    limit: int = Query(50, gt=0),
+    paginationToken: Optional[str] = Query(None),
+    sortColumn: Optional[str] = Query(None),
+    sortOrder: Optional[str] = Query("asc"),
+    totalLimit: Optional[int] = Query(None),
+):
+    limit = min(limit, 200)
+    offset = int(paginationToken) if paginationToken else 0
+
+    SORT_COLUMN_MAP = {
+        "checkdata.type": "checkdata ->> 'type'",
+        "state": "state",
+        "details": "details",
+        "devicename": "devicename",
+        "foundat": "foundat",
+        "resolvedat": "resolvedat",
+        "teamviewerid": "teamviewerid",
+    }
+
+    if sortColumn and sortColumn not in SORT_COLUMN_MAP:
+        raise HTTPException(status_code=400, detail="Invalid sort column")
+
+    sort_query = (
+        f"ORDER BY {SORT_COLUMN_MAP[sortColumn]} {sortOrder.upper()}" if sortColumn else ""
+    )
+
+    total_count_query = "SELECT COUNT(*) FROM alerts"
+    with engine.connect() as conn:
+        total_count = conn.execute(text(total_count_query)).scalar()
+
+        query = f"""
+            SELECT
+                alertid, checkdata, details, devicename,
+                foundat, resolvedat, state, teamviewerid
+            FROM alerts
+            {sort_query}
+            LIMIT :limit OFFSET :offset
+        """
+        result = conn.execute(text(query), {"limit": limit, "offset": offset}).fetchall()
+        alerts = [dict(row._mapping) for row in result]
+
+        totalFetched = offset + len(alerts)
+
+        if totalFetched < total_count and (not totalLimit or totalFetched < totalLimit):
+            next_token = str(totalFetched)
+        else:
+            next_token = None
+
+        return PaginatedResponse(items=alerts, nextPaginationToken=next_token).dict(by_alias=True)

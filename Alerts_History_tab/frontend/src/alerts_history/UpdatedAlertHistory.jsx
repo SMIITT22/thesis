@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./header/Header";
-import Table from "./table/Table";
+import UpdatedAlertTable from "./table/UpdatedAlertTable";
 
 const UpdatedAlertHistory = () => {
   return (
@@ -9,7 +9,7 @@ const UpdatedAlertHistory = () => {
         title="Updated Alert History"
         description="History of updated alerts with enhancements"
       />
-      {/* <Table totalLimit={25000} /> */}
+      <UpdatedAlertTable />
     </>
   );
 };
