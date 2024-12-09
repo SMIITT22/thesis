@@ -24,12 +24,12 @@ const Table = ({ totalLimit }) => {
   const [isSortedDescending, setIsSortedDescending] = useState(false);
 
   useEffect(() => {
-    dispatch(fetchAlerts({ totalLimit }));
-  }, [dispatch, totalLimit]);
-
-  useEffect(() => {
-    setSortedAlerts(alerts);
-  }, [alerts]);
+    if (!alerts.length) {
+      dispatch(fetchAlerts({ totalLimit }));
+    } else {
+      setSortedAlerts(alerts);
+    }
+  }, [dispatch, alerts, totalLimit]);
 
   const getIteratee = (colName) => {
     switch (colName) {

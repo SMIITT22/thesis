@@ -3,12 +3,15 @@ import axios from "../../services/apiClient";
 
 export const fetchAlerts = createAsyncThunk(
   "alerts/fetchAlerts",
-  async ({ totalLimit }, { dispatch, rejectWithValue }) => {
+  async ({ totalLimit }, { getState, dispatch, rejectWithValue }) => {
     try {
-      dispatch(resetAlerts());
-      dispatch(setLoading(true));
+      const { alerts } = getState().alerts;
 
-      let totalFetched = 0;
+      if (alerts.length >= totalLimit) {
+        return alerts.slice(0, totalLimit);
+      }
+      dispatch(setLoading(true));
+      let totalFetched = alerts.length;
       let nextPaginationToken = null;
 
       while (totalFetched < totalLimit) {
@@ -35,6 +38,7 @@ export const fetchAlerts = createAsyncThunk(
 
       dispatch(setPaginationToken(nextPaginationToken));
       dispatch(setLoading(false));
+      return getState().alerts.alerts.slice(0, totalLimit);
     } catch (error) {
       dispatch(setLoading(false));
       dispatch(setError(error.response?.data || "An error occurred"));
