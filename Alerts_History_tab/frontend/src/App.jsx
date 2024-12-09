@@ -9,6 +9,7 @@ import {
 import SidePanel from "./sidepanel/sidepanel";
 import Dashboard from "./dashboard/dashboard";
 import AlertHistory from "./alerts_history/AlertHistory";
+import UpdatedAlertHistory from "./alerts_history/UpdatedAlertHistory";
 
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
             <Route path="/" element={<Navigate to="/dashboard" replace />} />
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/alerts" element={<AlertHistory />} />
+            <Route path="/upadted_alerts" element={<UpdatedAlertHistory />} />
           </Routes>
         </Stack>
       </Stack>

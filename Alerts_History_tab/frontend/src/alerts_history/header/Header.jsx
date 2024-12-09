@@ -1,7 +1,7 @@
 import React from "react";
 import { Stack, Text } from "@fluentui/react";
 
-const Header = () => {
+const Header = ({ title, description }) => {
   return (
     <Stack
       styles={{
@@ -13,8 +13,8 @@ const Header = () => {
         },
       }}
     >
-      <Text variant="xxLarge">Alert History</Text>
-      <Text>All the alerts history</Text>
+      <Text variant="xxLarge">{title}</Text>
+      <Text>{description}</Text>
     </Stack>
   );
 };

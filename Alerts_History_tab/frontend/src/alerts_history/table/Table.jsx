@@ -14,11 +14,7 @@ import { orderBy } from "lodash";
 
 const Table = ({ totalLimit }) => {
   const dispatch = useDispatch();
-  const {
-    alerts = [],
-    loading = false,
-    error = null,
-  } = useSelector((state) => state.alerts);
+  const { alerts = [], error = null } = useSelector((state) => state.alerts);
   const [sortedAlerts, setSortedAlerts] = useState([]);
   const [sortColumnKey, setSortColumnKey] = useState(null);
   const [isSortedDescending, setIsSortedDescending] = useState(false);

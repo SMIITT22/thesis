@@ -5,7 +5,7 @@ import Table from "./table/Table";
 const AlertsPanel = () => {
   return (
     <>
-      <Header />
+      <Header title="Alert History" description="All the alerts history" />
       <Table totalLimit={25000} />
     </>
   );

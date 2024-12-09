@@ -31,6 +31,11 @@ const SidePanel = () => {
           url: "/alerts",
           key: "alertHistory",
         },
+        {
+          name: "Upadted Alert History",
+          url: "/upadted_alerts",
+          key: "upadtedAlertHistory",
+        },
       ],
     },
   ];
@@ -40,7 +45,7 @@ const SidePanel = () => {
   )?.key;
 
   const handleNavClick = (event, link) => {
-    event.preventDefault(); 
+    event.preventDefault();
     navigate(link.url);
   };
 
