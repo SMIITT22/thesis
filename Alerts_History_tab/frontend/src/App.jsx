@@ -26,7 +26,6 @@ const App = () => {
           }}
         >
           <Routes>
-            {/* Default route redirects to /dashboard */}
             <Route path="/" element={<Navigate to="/dashboard" replace />} />
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/alerts" element={<AlertHistory />} />

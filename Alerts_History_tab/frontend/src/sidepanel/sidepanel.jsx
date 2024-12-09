@@ -1,9 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Nav } from "@fluentui/react";
 import { useNavigate, useLocation } from "react-router-dom";
 
 const SidePanel = () => {
-  const [selectedKey, setSelectedKey] = useState("dashboard");
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -26,29 +25,23 @@ const SidePanel = () => {
           name: "Dashboard",
           url: "/dashboard",
           key: "dashboard",
-          onClick: () => handleNavClick("dashboard"),
         },
         {
           name: "Alert History",
           url: "/alerts",
           key: "alertHistory",
-          onClick: () => handleNavClick("alertHistory"),
         },
       ],
     },
   ];
 
-  useEffect(() => {
-    if (location.pathname === "/dashboard") {
-      setSelectedKey("dashboard");
-    } else if (location.pathname === "/alerts") {
-      setSelectedKey("alertHistory");
-    }
-  }, [location.pathname]);
+  const selectedKey = navLinkGroups[0].links.find(
+    (link) => location.pathname === link.url
+  )?.key;
 
-  const handleNavClick = (key) => {
-    setSelectedKey(key);
-    navigate(navLinkGroups[0].links.find((link) => link.key === key).url);
+  const handleNavClick = (event, link) => {
+    event.preventDefault(); 
+    navigate(link.url);
   };
 
   return (
@@ -56,6 +49,7 @@ const SidePanel = () => {
       groups={navLinkGroups}
       selectedKey={selectedKey}
       styles={navStyles}
+      onLinkClick={handleNavClick}
       ariaLabel="Side Navigation Panel"
     />
   );

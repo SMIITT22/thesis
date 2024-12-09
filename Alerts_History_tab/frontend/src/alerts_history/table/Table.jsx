@@ -1,222 +1,195 @@
-import React, { useState, useMemo } from "react";
+import React, { useEffect, useState } from "react";
 import {
   DetailsList,
   DetailsListLayoutMode,
   SelectionMode,
-  CheckboxVisibility,
   ScrollablePane,
   Sticky,
   StickyPositionType,
   ScrollbarVisibility,
 } from "@fluentui/react";
+import { useDispatch, useSelector } from "react-redux";
+import { fetchAlerts } from "../../redux/slices/alertsSlice";
+import { orderBy } from "lodash";
 
-const Table = () => {
-  const items = useMemo(
-    () => [
-      {
-        key: 1,
-        alertType: "CPU usage",
-        status: "Detected",
-        description: "CPU usage was above 5%",
-        device: "TVDPF4PC2",
-        duration: "2 days",
-        foundAt: "Sep 13, 2024, 5:00 PM",
-        acknowledgeAt: "Sep 14, 2024, 5:00 PM",
-        group: "Group A",
-      },
-      {
-        key: 2,
-        alertType: "System update",
-        status: "Resolved",
-        description: "System updates were available",
-        device: "DFGRTD3PC9",
-        duration: "2 minutes",
-        foundAt: "Sep 10, 2024, 4:00 PM",
-        acknowledgeAt: "Sep 11, 2024, 4:00 PM",
-        group: "Group B",
-      },
-      {
-        key: 3,
-        alertType: "Network adapter traffic",
-        status: "Acknowledged",
-        description: "Available memory is below 64000 MB",
-        device: "KLOPMT7GQ3",
-        duration: "100 days",
-        foundAt: "Aug 30, 2024, 6:00 PM",
-        acknowledgeAt: "Sep 1, 2024, 6:00 PM",
-        group: "Group C",
-      },
-    ],
-    []
-  );
-
-  const [sortedItems, setSortedItems] = useState(items);
+const Table = ({ totalLimit }) => {
+  const dispatch = useDispatch();
+  const {
+    alerts = [],
+    loading = false,
+    error = null,
+  } = useSelector((state) => state.alerts);
+  const [sortedAlerts, setSortedAlerts] = useState([]);
   const [sortColumnKey, setSortColumnKey] = useState(null);
   const [isSortedDescending, setIsSortedDescending] = useState(false);
 
-  const onColumnClick = (_, column) => {
-    const newIsSortedDescending =
-      sortColumnKey === column.key ? !isSortedDescending : false;
+  useEffect(() => {
+    dispatch(fetchAlerts({ totalLimit }));
+  }, [dispatch, totalLimit]);
 
-    const sorted = copyAndSort(
-      sortedItems,
-      column.fieldName,
-      newIsSortedDescending
+  useEffect(() => {
+    setSortedAlerts(alerts);
+  }, [alerts]);
+
+  const getIteratee = (colName) => {
+    switch (colName) {
+      case "checkdata.type":
+        return (alert) => alert.checkdata.type.toLowerCase();
+      case "details":
+        return (alert) => alert.details.toLowerCase();
+      case "state":
+        return (alert) => alert.state.toLowerCase();
+      case "devicename":
+        return (alert) => alert.devicename.toLowerCase();
+      case "foundat":
+      case "resolvedat":
+        return (alert) => new Date(alert[colName]);
+      case "teamviewerid":
+        return (alert) => alert.teamviewerid;
+      default:
+        return (alert) => alert[colName];
+    }
+  };
+
+  const onColumnClick = (_, column) => {
+    const columnKey = column.key;
+
+    const newIsSortedDescending =
+      sortColumnKey === columnKey ? !isSortedDescending : false;
+
+    const order = transformSortOrder(columnKey, newIsSortedDescending);
+
+    const startTime = Date.now();
+
+    const sorted = orderBy(sortedAlerts, [getIteratee(columnKey)], [order]);
+
+    const endTime = Date.now();
+    console.log(
+      `Sorting on column "${column.name}" took ${
+        endTime - startTime
+      } ms with order "${order}".`
     );
 
-    setSortedItems(sorted);
-    setSortColumnKey(column.key);
+    setSortedAlerts(sorted);
+    setSortColumnKey(columnKey);
     setIsSortedDescending(newIsSortedDescending);
   };
 
-  const copyAndSort = (items, fieldName, isDescending) => {
-    return [...items].sort((a, b) => {
-      let aValue = a[fieldName];
-      let bValue = b[fieldName];
-
-      switch (fieldName) {
-        case "status":
-          const statusOrder = ["Detected", "Acknowledged", "Resolved"];
-          aValue = statusOrder.indexOf(aValue);
-          bValue = statusOrder.indexOf(bValue);
-          break;
-        case "duration":
-          aValue = parseDuration(aValue);
-          bValue = parseDuration(bValue);
-          break;
-        case "foundAt":
-        case "acknowledgeAt":
-          aValue = new Date(aValue);
-          bValue = new Date(bValue);
-          break;
-        default:
-          break;
-      }
-
-      if (aValue < bValue) return isDescending ? 1 : -1;
-      if (aValue > bValue) return isDescending ? -1 : 1;
-      return 0;
-    });
-  };
-
-  const parseDuration = (duration) => {
-    const durationMap = { days: 1440, hours: 60, minutes: 1 };
-    const [value, unit] = duration.split(" ");
-    return parseInt(value) * (durationMap[unit] || 1);
+  const transformSortOrder = (colName, isDescending) => {
+    if (colName === "state") {
+      return isDescending ? "asc" : "desc";
+    }
+    return isDescending ? "desc" : "asc";
   };
 
   const columns = [
     {
-      key: "alertType",
+      key: "checkdata.type",
       name: "ALERT TYPE",
-      fieldName: "alertType",
+      fieldName: "checkdata.type",
       minWidth: 150,
       maxWidth: 200,
       isResizable: true,
-      isSorted: sortColumnKey === "alertType",
+      isSorted: sortColumnKey === "checkdata.type",
       isSortedDescending: isSortedDescending,
       onColumnClick: onColumnClick,
+      onRender: (item) => item.checkdata.type,
     },
     {
-      key: "status",
+      key: "state",
       name: "STATUS",
-      fieldName: "status",
+      fieldName: "state",
       minWidth: 100,
       maxWidth: 150,
       isResizable: true,
-      isSorted: sortColumnKey === "status",
+      isSorted: sortColumnKey === "state",
       isSortedDescending: isSortedDescending,
       onColumnClick: onColumnClick,
+      onRender: (item) => item.state,
     },
     {
-      key: "description",
+      key: "details",
       name: "DESCRIPTION",
-      fieldName: "description",
+      fieldName: "details",
       minWidth: 200,
       maxWidth: 300,
       isResizable: true,
-      isSorted: sortColumnKey === "description",
+      isSorted: sortColumnKey === "details",
       isSortedDescending: isSortedDescending,
       onColumnClick: onColumnClick,
+      onRender: (item) => item.details,
     },
     {
-      key: "device",
+      key: "devicename",
       name: "DEVICE",
-      fieldName: "device",
+      fieldName: "devicename",
       minWidth: 150,
       maxWidth: 200,
       isResizable: true,
-      isSorted: sortColumnKey === "device",
+      isSorted: sortColumnKey === "devicename",
       isSortedDescending: isSortedDescending,
       onColumnClick: onColumnClick,
+      onRender: (item) => item.devicename,
     },
     {
-      key: "duration",
-      name: "DURATION",
-      fieldName: "duration",
-      minWidth: 100,
-      maxWidth: 150,
-      isResizable: true,
-      isSorted: sortColumnKey === "duration",
-      isSortedDescending: isSortedDescending,
-      onColumnClick: onColumnClick,
-    },
-    {
-      key: "foundAt",
+      key: "foundat",
       name: "FOUND AT",
-      fieldName: "foundAt",
+      fieldName: "foundat",
       minWidth: 150,
       maxWidth: 200,
       isResizable: true,
-      isSorted: sortColumnKey === "foundAt",
+      isSorted: sortColumnKey === "foundat",
       isSortedDescending: isSortedDescending,
       onColumnClick: onColumnClick,
+      onRender: (item) => new Date(item.foundat).toLocaleString(),
     },
     {
-      key: "acknowledgeAt",
-      name: "ACKNOWLEDGE AT",
-      fieldName: "acknowledgeAt",
+      key: "resolvedat",
+      name: "RESOLVED AT",
+      fieldName: "resolvedat",
       minWidth: 150,
       maxWidth: 200,
       isResizable: true,
-      isSorted: sortColumnKey === "acknowledgeAt",
+      isSorted: sortColumnKey === "resolvedat",
       isSortedDescending: isSortedDescending,
       onColumnClick: onColumnClick,
+      onRender: (item) =>
+        item.resolvedat ? new Date(item.resolvedat).toLocaleString() : "",
     },
     {
-      key: "group",
-      name: "GROUP",
-      fieldName: "group",
+      key: "teamviewerid",
+      name: "TEAMVIEWER ID",
+      fieldName: "teamviewerid",
       minWidth: 150,
       maxWidth: 200,
       isResizable: true,
-      isSorted: sortColumnKey === "group",
+      isSorted: sortColumnKey === "teamviewerid",
       isSortedDescending: isSortedDescending,
       onColumnClick: onColumnClick,
+      onRender: (item) => item.teamviewerid,
     },
   ];
 
   return (
-    <div
-      style={{
-        height: "calc(100vh - 100px)",
-        position: "relative",
-      }}
-    >
-      <ScrollablePane scrollbarVisibility={ScrollbarVisibility.auto}>
-        <DetailsList
-          items={sortedItems}
-          columns={columns}
-          selectionMode={SelectionMode.none}
-          layoutMode={DetailsListLayoutMode.justified}
-          checkboxVisibility={CheckboxVisibility.hidden}
-          onRenderDetailsHeader={(props, defaultRender) => (
-            <Sticky stickyPosition={StickyPositionType.Header}>
-              {defaultRender(props)}
-            </Sticky>
-          )}
-        />
-      </ScrollablePane>
+    <div style={{ height: "calc(100vh - 100px)", position: "relative" }}>
+      {error ? (
+        <div>Error: {error}</div>
+      ) : (
+        <ScrollablePane scrollbarVisibility={ScrollbarVisibility.auto}>
+          <DetailsList
+            items={sortedAlerts}
+            columns={columns}
+            selectionMode={SelectionMode.none}
+            layoutMode={DetailsListLayoutMode.justified}
+            checkboxVisibility={0}
+            onRenderDetailsHeader={(props, defaultRender) => (
+              <Sticky stickyPosition={StickyPositionType.Header}>
+                {defaultRender(props)}
+              </Sticky>
+            )}
+          />
+        </ScrollablePane>
+      )}
     </div>
   );
 };

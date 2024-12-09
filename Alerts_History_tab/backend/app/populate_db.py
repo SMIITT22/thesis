@@ -2,7 +2,7 @@ import psycopg2
 import uuid
 import json
 from faker import Faker
-from datetime import datetime, timedelta
+from datetime import timedelta
 
 DATABASE_URL = "postgresql://postgres:2002@localhost:5432/alerts_db"
 
@@ -11,7 +11,7 @@ cursor = conn.cursor()
 
 faker = Faker()
 
-for _ in range(1000):
+for _ in range(100000):
     alert_id = str(uuid.uuid4())
     check_data = json.dumps({
         "checkId": str(uuid.uuid4()),

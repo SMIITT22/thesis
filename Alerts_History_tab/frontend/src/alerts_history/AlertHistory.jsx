@@ -6,7 +6,7 @@ const AlertsPanel = () => {
   return (
     <>
       <Header />
-      <Table />
+      <Table totalLimit={400} />
     </>
   );
 };
