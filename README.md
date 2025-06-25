@@ -19,8 +19,8 @@ The result is a faster, more scalable Alerts History page that maintains functio
 
 ## Repository Structure
 - `src/`: Contains the source code for the optimized Alerts History tab implementation.
-- `docs/`: Includes additional documentation, such as diagrams or performance benchmarks (if applicable).
-- `tests/`: Test cases to validate the performance improvements (if included).
+- `docs/`: Includes additional documentation, such as diagrams or performance benchmarks.
+- `tests/`: Test cases to validate the performance improvements.
 - `README.md`: This file.
 
 ## How to Run
