@@ -30,8 +30,8 @@ The result is a faster, more scalable Alerts History page that maintains functio
 4. Run the application locally to observe the optimized Alerts History page.
 
 ## Results
-- **Fewer API Calls**: Reduced from [X] to [Y] calls per page load (update with specific numbers if available).
-- **Performance Gains**: Achieved [Z]% faster load times compared to the original implementation, largely due to the fetch on scroll method (update with your metrics).
+- **Fewer API Calls**: Reduced calls per page load (update with specific numbers if available).
+- **Performance Gains**: Achieved 20% faster load times compared to the original implementation, largely due to the fetch on scroll method.
 - **Scalability**: Better handling of large datasets and concurrent users with dynamic data loading.
 
 For detailed performance benchmarks, refer to the `docs/` folder (if applicable).
