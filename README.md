@@ -19,8 +19,6 @@ The result is a faster, more scalable Alerts History page that maintains functio
 
 ## Repository Structure
 - `src/`: Contains the source code for the optimized Alerts History tab implementation.
-- `docs/`: Includes additional documentation, such as diagrams or performance benchmarks.
-- `tests/`: Test cases to validate the performance improvements.
 - `README.md`: This file.
 
 ## How to Run
@@ -33,8 +31,6 @@ The result is a faster, more scalable Alerts History page that maintains functio
 - **Fewer API Calls**: Reduced calls per page load (update with specific numbers if available).
 - **Performance Gains**: Achieved 20% faster load times compared to the original implementation, largely due to the fetch on scroll method.
 - **Scalability**: Better handling of large datasets and concurrent users with dynamic data loading.
-
-For detailed performance benchmarks, refer to the `docs/` folder (if applicable).
 
 ## Link
 Explore the code and files here: [Alerts History Tab Code](https://github.com/SMIITT22/thesis/tree/main/Alerts_History_tab)
